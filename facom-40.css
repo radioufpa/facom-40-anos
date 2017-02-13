@@ -1,0 +1,27 @@
+.color-1 { background-color: #CC4D38; }
+.color-2 { background-color: #EEA341; }
+.color-3 { background-color: #4B314C; }
+.color-4 { background-color: #688443; }
+.color-5 { background-color: rgba(51, 140, 148, 0.9); }
+
+.img-logo {
+  background-image: url(_images/facom_ufpa_40_anos_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-1 { background-image: url("_images/evento1.jpg"); }
+.img-2 { background-image: url("_images/evento2.jpg"); }
+
+/* Card */
+
+.card h3 { color: #CC4D38; }
+.card div:after { background-color: rgba(226, 54, 25, 0.6); }
+.card div:before { background-color: #CC4D38; }
+.card a:hover div:after, .card a:focus div:after { background-color: rgba(51, 140, 148, 0.6); }
+
+/* Track */
+
+.track a:hover, .track a:focus { background-color: #CC4D38; }
+.track a:before { background-color: #CC4D38; }
+.track p { color: #fff; }
